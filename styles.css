@@ -1,0 +1,85 @@
+.welcome {
+    color:mintcream;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    grid-area: 3 / 4 / span 1 / span 3;
+    text-align: center;
+    font-size: 25px;
+    margin: 0px;
+}
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+/*1fr 1fr 1fr 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr*/
+body {
+    display: grid;
+    width: auto;
+    grid-template: 1fr 1fr 1fr 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-image: url("backimage.jfif");
+    justify-items: center;
+    justify-content: center;
+}
+
+
+a {
+    text-decoration: none;
+    color: MintCream;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: orange;
+    text-align: center;
+    border: 1px solid beige;
+}
+
+.home {
+    grid-area: 1 / 1 / span 1 / span 1;
+}
+
+.project {
+    grid-area: 1 / 5 / span 1 / span 1;
+}
+
+.about {
+    grid-area: 1 / 9 / span 1 / span 1;
+}
+
+.navs :hover{
+    background-color: limegreen;
+}
+.navs {
+    transition-property: background-color;
+    transition-duration: 750ms;
+}
+
+video{
+    grid-area: 5 / 4 / span 3 / span 3;
+}
+.center {
+    margin: 0 auto;
+    width: 400px;
+}
+
+.ada {
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+    grid-area: 5 / 8 / span 3 / span 1;
+}
+
+.brute-force {
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 244px;
+    height: 244px;
+    grid-area: 5 / 1 / span 3 / span 3;
+}
+
+#clock {
+    font-family: 'Orbitron', sans-serif;
+    color: #66ff99;
+    font-size: 56px;
+    text-align: center;
+    grid-area: 8 / 4 / span 1/ span 3;
+    padding-top: 100px;
+  }
